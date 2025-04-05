@@ -1,0 +1,7 @@
+{
+    "[dart]": {
+        "editor.defaultFormatter": null,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnSave": false
+    }
+}
