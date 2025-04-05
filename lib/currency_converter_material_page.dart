@@ -66,8 +66,8 @@ class _CurrencyConverterMaterialPageState extends State<CurrencyConverterMateria
           children: [
             Text(
               convertedAmount == null
-                  ? '0'
-                  : '₹${convertedAmount!.toStringAsFixed(2)}',
+                  ? '₹0'
+                  : '₹${convertedAmount!.toStringAsFixed(1)}',
               style: const TextStyle(
                 fontSize: 50,
                 fontWeight: FontWeight.bold,
